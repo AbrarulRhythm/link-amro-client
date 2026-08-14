@@ -1,11 +1,14 @@
 import { Outlet } from 'react-router';
+import LinkPageHeader from '../pages/Shared/Header/LinkPageHeader';
 
 const MainLayout = () => {
     return (
         // Mian Wrapper
         <div className="main-wrapper">
             {/* Header */}
-            <header>This is Header</header>
+            <header>
+                <LinkPageHeader></LinkPageHeader>
+            </header>
             {/* Header End */}
 
             {/* ==================== Mian ==================== */}
