@@ -4,9 +4,9 @@ import LinkPageHeader from '../pages/Shared/Header/LinkPageHeader';
 const MainLayout = () => {
     return (
         // Mian Wrapper
-        <div className="main-wrapper">
+        <div className="main-wrapper mt-21">
             {/* Header */}
-            <header>
+            <header className="bg-white py-3.5 border-b border-dark-03 w-full fixed top-0">
                 <LinkPageHeader></LinkPageHeader>
             </header>
             {/* Header End */}
