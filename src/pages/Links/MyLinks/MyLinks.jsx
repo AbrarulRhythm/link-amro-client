@@ -1,7 +1,9 @@
+import LinksNotFound from '../../../components/LinksNotFound/LinksNotFound';
+
 const MyLinks = () => {
     return (
         <div>
-            <h1>This is my links page</h1>
+            <LinksNotFound></LinksNotFound>
         </div>
     );
 };
