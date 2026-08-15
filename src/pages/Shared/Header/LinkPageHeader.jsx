@@ -1,7 +1,7 @@
 const LinkPageHeader = () => {
     return (
         <div>
-            <h1>Link Page Header</h1>
+            <h1>This is Header (Links)</h1>
         </div>
     );
 };
